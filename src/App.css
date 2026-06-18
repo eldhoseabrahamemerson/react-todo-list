@@ -1,0 +1,88 @@
+body{
+  margin: 0;
+  background-color: rgb(224, 221, 218);
+}
+.container{
+  width: 450px;
+  margin: 60px auto;
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+h1{
+  color: #333;
+  text-align: center;
+  margin-bottom: 20px;
+}
+input{
+  width: 90%;
+  padding: 10px;
+  margin-top: 20px;
+    font-size: 16px;
+    border:1px solid #ccc;
+    border-radius:5px;
+}
+button{
+  margin-top: 15px;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+button:hover{
+  background-color: #0056b3;
+}
+ul{
+  list-style: none;
+  margin-top: 20px;
+  padding: 0;
+}
+li{
+  background: #f0f0f0;
+  margin-top: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+li button{
+  background-color: red;
+  padding: 6px 12px;
+  font-size: 14px;
+  margin-top: 0;
+}
+li button:hover{
+  background-color: darkred;
+}
+li div{
+    display:flex;
+    gap:10px;
+    flex-shrink: 0;
+}
+
+span{
+    font-size:18px;
+}
+.input-section{
+    display:flex;
+    gap:10px;
+    margin-top:20px;
+}
+
+.input-section input{
+    flex:1;
+    margin-top:0;
+}
+
+.input-section button{
+    margin-top:0;
+}
+span {
+  flex: 1;
+  word-break: break-word;
+}
